@@ -36,7 +36,7 @@ Namespace ChartStackedSorting
         End Sub
 
         Private Sub button1_Click(ByVal sender As Object, ByVal e As EventArgs)
-            Dim css As ChartStackedSorting.ChartStackedSorting = New ChartStackedSorting.ChartStackedSorting(chartControl1)
+            Dim css As ChartStackedSorting = New ChartStackedSorting(chartControl1)
             css.SortChartSeries()
             chartControl1.RefreshData()
         End Sub

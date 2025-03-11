@@ -12,7 +12,8 @@ Namespace ChartStackedSorting
         Sub Main()
             Call Application.EnableVisualStyles()
             Application.SetCompatibleTextRenderingDefault(False)
-            Call Application.Run(New ChartStackedSorting.Form1())
+            Call Application.Run(New Form1())
         End Sub
     End Module
 End Namespace
+

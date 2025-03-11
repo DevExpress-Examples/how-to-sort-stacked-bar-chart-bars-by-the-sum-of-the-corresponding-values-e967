@@ -37,12 +37,12 @@ Namespace ChartStackedSorting.Properties
         <Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)>
         Friend Shared ReadOnly Property ResourceManager As Global.System.Resources.ResourceManager
             Get
-                If Object.ReferenceEquals(ChartStackedSorting.Properties.Resources.resourceMan, Nothing) Then
-                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("Resources", GetType(ChartStackedSorting.Properties.Resources).Assembly)
-                    ChartStackedSorting.Properties.Resources.resourceMan = temp
+                If Object.ReferenceEquals(Resources.resourceMan, Nothing) Then
+                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("Resources", GetType(Resources).Assembly)
+                    Resources.resourceMan = temp
                 End If
 
-                Return ChartStackedSorting.Properties.Resources.resourceMan
+                Return Resources.resourceMan
             End Get
         End Property
 
@@ -53,11 +53,11 @@ Namespace ChartStackedSorting.Properties
         <Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)>
         Friend Shared Property Culture As Global.System.Globalization.CultureInfo
             Get
-                Return ChartStackedSorting.Properties.Resources.resourceCulture
+                Return Resources.resourceCulture
             End Get
 
             Set(ByVal value As Global.System.Globalization.CultureInfo)
-                ChartStackedSorting.Properties.Resources.resourceCulture = value
+                Resources.resourceCulture = value
             End Set
         End Property
     End Class
