@@ -14,12 +14,12 @@ Namespace ChartStackedSorting.Properties
     Friend NotInheritable Partial Class Settings
         Inherits Global.System.Configuration.ApplicationSettingsBase
 
-        Private Shared defaultInstance As ChartStackedSorting.Properties.Settings = CType((Global.System.Configuration.ApplicationSettingsBase.Synchronized(New ChartStackedSorting.Properties.Settings())), ChartStackedSorting.Properties.Settings)
+    Private Shared defaultInstance As Properties.Settings = CType((Global.System.Configuration.ApplicationSettingsBase.Synchronized(New Settings())), Settings)
 
-        Public Shared ReadOnly Property [Default] As Settings
+    Public Shared ReadOnly Property [Default] As Settings
             Get
-                Return ChartStackedSorting.Properties.Settings.defaultInstance
-            End Get
+        Return Settings.defaultInstance
+      End Get
         End Property
     End Class
 End Namespace
